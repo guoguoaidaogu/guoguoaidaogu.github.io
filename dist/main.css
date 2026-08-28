@@ -272,7 +272,8 @@ body.darkmode .article-tag-list .article-tag-list-link {
 }
 
 body.darkmode #vcomments-box #vcomments {
-    background-color: hsla(0, 0%, 100%, .05) !important
+    /* background-color: hsla(0, 0%, 100%, .05) !important */
+    background-color: #1c1f26 !important
 }
 
 body.darkmode #vcomments-box #vcomments * {
