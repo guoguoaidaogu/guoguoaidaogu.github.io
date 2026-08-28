@@ -133,9 +133,13 @@
         //     recordIP: true,
         //   });
         Waline.init({
+            dark: "body.darkmode",
             el: '#vcomments',
-            serverURL: "waline.shertist.fun",
-            dark: "body.darkmode"
+            login: 'disable',
+            meta: ['nick'],
+            noRss: true,
+            reaction: false,
+            serverURL: "waline.shertist.fun"
         });
         const infoEle = document.querySelector("#vcomments .info");
         if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
